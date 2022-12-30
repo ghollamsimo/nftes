@@ -70,7 +70,7 @@ h6{
 /*=================for phone================*/
 @media screen and (max-width: 600px) { 
     .card__container{
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: 1fr;
     }
     .card__body{
         grid-template-columns: 1fr 1fr;
