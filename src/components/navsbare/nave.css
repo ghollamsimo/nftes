@@ -1,0 +1,87 @@
+a{
+    text-decoration: none;
+    color: #fff;
+
+}
+.submit{
+    border: 1px solid #fff;
+    padding: 7px 30px;
+    border-radius: 0.5rem;
+    transition: 0.7s;
+    color: #fff;
+}
+.submit:hover{
+    color: #000;
+    background-color: #fff;
+}
+.sign_up-button{
+    border: 1px solid white;
+    padding: 7px 20px;
+    border-radius: 0.5rem;
+    color: #000;
+    background-color: #fff;
+    transition: 0.7s;
+    margin: -12px;
+    margin-top: -17px;
+}
+.sign_up-button:hover{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+}
+.offcanvas__container{
+    background: #10101a !important;
+    overflow-y: hidden;
+}
+.offcanvas__container-title{
+    font-family: 'Tajawal', sans-serif; 
+    color: #fff;
+}
+.offcanvas__container-body{
+    overflow-x: hidden;
+    overflow: hidden;
+}
+.offcanvas__container-body {
+    font-family: 'Tajawal', sans-serif; 
+}
+.wallet{
+    display: flex;
+    align-items: center;
+}
+.offcanvas__container-body-button{
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.8s;
+    margin: 15px;
+}
+.offcanvas__container-body-btn{
+    padding: 7px 30px ;
+    border: 0;
+    border-radius: 25px;
+    background: #171730 !important;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+.offcanvas__container-body-btn button:hover{
+    background: rgb(255, 246, 246);
+}
+.offcanvas__container-body small a{
+    color: rgb(184, 179, 179);
+}
+.modal__title{
+    font-family: 'Poppins', sans-serif; 
+}
+/* ===============for tablet================= */
+@media only screen and (max-width: 1024px) {
+.sign_up-button{
+    width: 79px;
+    margin: -0px;
+    margin-top: -0px;
+}
+}
+    
+/* ==================for phone================ */
+@media only screen and (max-width: 600px) {
+    
+  };

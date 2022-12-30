@@ -1,0 +1,111 @@
+.top__container{
+    font-family: 'Tajawal', sans-serif; 
+}
+.top__container-row{
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    margin: 10px;
+}
+.top__container-row h3{
+    margin: 10px;
+    font-family: 'Tajawal', sans-serif; 
+}
+.time{
+    border: 1px solid gray;
+    border-radius: 25px;
+    padding: 7px 25px;
+    transition: 0.7s;
+    margin-top: 20px;
+    margin-left: 750px;
+    user-select: none;
+}
+.time:hover{
+    border: 1px solid rgb(224, 222, 222);
+}
+.all__chaine{
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 30px;
+    padding: 5px 15px;
+}
+.all__chaine h4{
+    font-size: 16px;
+    margin-top: 5px;
+}
+.all__chaine i{
+    font-size: 25px;
+    color: gray;
+    margin-top: -10px;
+}
+/* =========================CARD====================== */
+.tclient__container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tclient__container-card{
+    display: flex;
+    align-items: center ;
+    font-family: 'Tajawal', sans-serif; 
+    transition: 0.7s;
+    margin: 20px;
+    border-radius: 17px;
+    background: #2b2b46;
+}
+.tclient__container-card:hover{
+    background: #2b2b467c;
+}
+.tclient__container-card img{
+    border-radius: 17px;
+    margin: 20px
+}
+.tclient__container-card i{
+    color: rgb(255, 255, 255);
+}
+.tclient__container-card h2{
+    font-family: 'Raleway', sans-serif;
+}
+.tclient__container-price{
+    display: flex;
+    align-items: center;
+    margin-top: -8px;
+}
+.tclient__container-price h4{
+    margin: 10px;
+    font-size: 20px;
+}
+/* ===============for tablet================= */
+@media only screen and (max-width: 1024px) {
+    .top__container-row h3{
+        font-size: 18px;
+    }
+    .time{
+        margin-left: 0px;
+        width: 98px;
+    }
+    .all__chaine h4{
+        margin-top: 5px;
+    }
+    .tclient__container{
+        grid-template-columns: 1fr;
+    }
+    .tclient__container-card h5{
+        font-size: 14px;
+    }
+    .tclient__container-price h4{
+        font-size: 14px;
+    }
+    .tclient__container-price{
+        margin-top: -8px;
+    }
+    .tclient__container-card i{
+        font-size: 10px;
+    }
+
+    }
+        
+    /* ==================for phone================ */
+    @media only screen and (max-width: 600px) {
+        
+      };

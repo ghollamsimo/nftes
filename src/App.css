@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Tajawal:wght@200;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    text-decoration: none;
+    list-style: none;
+   
+}
+
+body{
+    background: #10101a !important;
+    font-weight: 500;
+    overflow-x: hidden;
+}
+p{
+    color: #fff;
+    font-size: 1rem;
+}
+h1,
+h2,
+h3,
+h4{
+    color: #fff;
+}
+hr{
+    color: white;
+}
+a{
+    color: #fff ;
+}
+input{
+    padding: 10px ;
+    outline: 0;
+}
